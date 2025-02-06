@@ -1,5 +1,5 @@
 # 💫 About Me:
-🚀 IIIT Lucknow<br>💬 Working on Chat-App<br>🌐 Learning Web Development & App Development<br>🏆 3⭐ at CodeChef (Highest Rating: 1607) <br>🎯 Pupil at Codeforces (Highest Rating: 1280)
+🚀 IIIT Lucknow<br>💬 Working on Chat-App<br>🌐 Learning Web Development & App Development<br>🏆 3⭐ at CodeChef (Highest Rating: 1668) <br>🎯 Pupil at Codeforces (Highest Rating: 1398)
 
 
 ## 🌐 Socials:

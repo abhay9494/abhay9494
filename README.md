@@ -1,5 +1,5 @@
 # 💫 About Me:
-🚀 IIIT Lucknow<br>🏆 3⭐ at CodeChef (Highest Rating: 1669) <br>🎯 Specialist at Codeforces (Highest Rating: 1424)
+🚀 IIIT Lucknow<br>
 
 
 ## 🌐 Socials:

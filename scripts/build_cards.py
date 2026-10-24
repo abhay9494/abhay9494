@@ -1426,8 +1426,6 @@ My Chrome extension fills job applications page by page and never presses Submit
 </p>
 
 {a(SITE, pic('footer', cards['footer'].title, '100%'))}
-
-<p align="center"><img src="https://komarev.com/ghpvc/?username={USER}&amp;label=Profile%20views&amp;color=2ea6ff&amp;style=flat-square" alt="Profile views"></p>
 '''
 
 

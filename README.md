@@ -61,5 +61,3 @@ My Chrome extension fills job applications page by page and never presses Submit
 </p>
 
 <a href="https://abhay9494.github.io"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/footer.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/footer.svg"><img src="assets/dark/footer.svg" alt="Abhay Prasad · © 2026" width="100%"></picture></a>
-
-<p align="center"><img src="https://komarev.com/ghpvc/?username=abhay9494&amp;label=Profile%20views&amp;color=2ea6ff&amp;style=flat-square" alt="Profile views"></p>

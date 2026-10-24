@@ -1,0 +1,51 @@
+name: Refresh profile cards
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # every day at 07:30 IST, half an hour after the portfolio's rating sync
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/build_cards.py
+      - fonts/**
+      - data/portrait.txt
+      - .github/workflows/cards.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cards
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install fontTools
+        run: pip install fonttools==4.63.0
+
+      - name: Build the cards
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/build_cards.py   # fails the run (so GitHub tells you) if a source could not be fetched
+
+      - name: Commit the cards if they changed
+        if: always()   # still save whatever did arrive
+        run: |
+          git add -A assets README.md data/cache.json
+          if git diff --cached --quiet; then
+            echo "No change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh profile cards"
+          git push

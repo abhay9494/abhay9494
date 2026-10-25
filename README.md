@@ -44,7 +44,7 @@ My Chrome extension fills job applications page by page and never presses Submit
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-activity.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/h-activity.svg"><img src="assets/dark/h-activity.svg" alt="On GitHub"></picture>
 
-<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/activity.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/activity.svg"><img src="assets/dark/activity.svg" alt="GitHub activity: 265 contributions in the last year, current streak 3 days, longest streak 8 days, 10 public repositories." width="100%"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/activity.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/activity.svg"><img src="assets/dark/activity.svg" alt="GitHub activity: 269 contributions in the last year, current streak 3 days, longest streak 8 days, 9 public repositories." width="100%"></picture>
 
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/dark/h-toolbox.svg"><source media="(prefers-color-scheme: light)" srcset="assets/light/h-toolbox.svg"><img src="assets/dark/h-toolbox.svg" alt="What I build with"></picture>
 
